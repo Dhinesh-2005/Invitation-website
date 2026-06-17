@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Engagement Invitation</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="invite-page">
+    
+
+<div class="invite-container">
+
+    <div class="couple-section">
+        <img src="images\image1.png" alt="Couple">
+        <div class="particles"></div>
+    </div>
+
+    <div class="content-section">
+
+        <p class="blessing">
+            WITH THE BLESSINGS OF<br>
+            ALMIGHTY GOD & OUR BELOVED ELDERS
+        </p>
+
+        <h1 class="title">Engagement Ceremony</h1>
+
+        <div class="divider"></div>
+
+        <h2 class="name">P. PRIYA DHARSHINI</h2>
+
+        <p class="parents">
+            Daughter of <br>
+            Mr. D. PRAKASH & Mrs. P. LATHA
+        </p>
+
+        <p class="with">with</p>
+
+        <h2 class="name">M. PARTHIBAN, B.E.</h2>
+
+        <p class="parents">
+            Son of <br>
+            Mr. MURUGESAN & Mrs. M.MAGESHWARI
+        </p>
+
+        <div class="divider"></div>
+
+        <p class="message">
+            As they begin a beautiful journey of love,
+            trust and companionship, we warmly invite
+            you and your family to join us and bless
+            the couple on this joyous occasion.
+        </p>
+
+        <div class="details">
+
+            <h3>📅 Date</h3>
+            <p>Thursday, 02 July 2026</p>
+
+            <h3>⏰ Time</h3>
+            <p>6.00 PM – 7.30 PM</p>
+
+            <h3>📍 Venue</h3>
+
+            <p>
+                M.J. Vani Mahal A/C , 
+                Thirumullaivoyal , Chennai - 600062
+            </p>
+
+            <a
+            href="https://maps.google.com/?q=M.J. Vani Mahal A/C Chennai"
+            target="_blank"
+            class="map-btn">
+                Open Location
+            </a>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <h3>Contact</h3>
+
+        <div class="contact">
+
+            <a href="tel:+919941796400" class="call-btn">
+                📞 
+            </a>
+
+            <a href="tel:+919884211993" class="call-btn">
+                📞 
+            </a>
+
+        </div>
+
+        
+
+        <div class="divider"></div>
+
+        <p class="footer">
+    <strong>With Love & Regards</strong><br>
+    <strong>Family Members</strong>
+</p>
+
+    </div>
+
+</div>
+    <script>
+const particles = document.querySelector(".particles");
+
+for(let i=0;i<60;i++){
+
+    const p = document.createElement("span");
+
+    p.innerHTML = Math.random() > 0.5 ? "❤" : "✦";
+
+    p.style.left = Math.random()*100 + "%";
+
+    p.style.fontSize = (8 + Math.random()*16) + "px";
+
+    p.style.animationDuration =
+        (5 + Math.random()*8) + "s";
+
+    p.style.animationDelay =
+        Math.random()*5 + "s";
+
+    particles.appendChild(p);
+}
+</script>
+
+</body>
+</html>
