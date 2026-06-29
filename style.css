@@ -244,6 +244,10 @@ body{
         margin-top:0;
         font-size:16px;
     }
+    .couple-name{
+        white-space: nowrap;
+        font-size: 1.8rem;
+    }
 }
 
 .invite-container{
